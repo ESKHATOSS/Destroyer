@@ -215,7 +215,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: all 800ms;
   -webkit-transition: all 800ms;
   -moz-transition: all 800ms;
@@ -234,7 +234,7 @@ button:hover {
 }
 
 a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 234, 255);
   size: 1.1;
 }
 
