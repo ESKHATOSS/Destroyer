@@ -125,3 +125,137 @@ li a:hover{
   bottom: 0;
   z-index: -1;
 }
+
+.form{
+  transition: all 800ms;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  -ms-transition: all 800ms;
+  -o-transition: all 800ms;
+}
+
+.username{
+  transition: all 800ms;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  -ms-transition: all 800ms;
+  -o-transition: all 800ms;
+}
+
+.password{
+  transition: all 800ms;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  -ms-transition: all 800ms;
+  -o-transition: all 800ms;
+}
+
+button{
+  transition: all 800ms;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  -ms-transition: all 800ms;
+  -o-transition: all 800ms;
+}
+
+.form h2 {
+  text-align: center;
+}
+
+.form {
+  width: 400px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.56);
+  margin-top: 70px;
+  height: 459px;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.username, .password{
+  margin-left: 115px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: -20px;
+  margin-top: 25px;
+  padding: 8px;
+  width: 250px;
+  margin-left: 80px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+button {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgb(238, 255, 4);
+  color: snow;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 250px;
+  transition: 0,3s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: black;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  transition: all 800ms;
+  -webkit-transition: all 800ms;
+  -moz-transition: all 800ms;
+  -ms-transition: all 800ms;
+  -o-transition: all 800ms;
+}
+
+h2 {
+  font-size: 35px;
+  color: rgb(57, 157, 197);
+}
+
+button:hover {
+  background-color: rgb(57, 157, 197);
+  scale: 1.1;
+}
+
+a:hover {
+  color: rgb(0, 234, 255);
+  size: 1.1;
+}
+
+.username:hover {
+  background-color: lightskyblue;
+  scale: 1.1;
+}
+
+.password:hover {
+  background-color: antiquewhite;
+  scale: 1.1;
+}
+
+.form:hover {
+  background-color: rgba(0, 0, 0, 0.753);
+}
+
+span {
+  color: rgb(238, 255, 4);
+}
+
+button{
+  font-weight: bolder;
+}

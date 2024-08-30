@@ -229,7 +229,7 @@ h2 {
 }
 
 button:hover {
-  background-color: lightblue;
+  background-color: rgb(57, 157, 197);
   scale: 1.1;
 }
 
@@ -254,6 +254,10 @@ a:hover {
 
 span {
   color: rgb(238, 255, 4);
+}
+
+button{
+  font-weight: bolder;
 }
 
 
